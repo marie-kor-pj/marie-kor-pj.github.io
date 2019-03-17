@@ -22,6 +22,7 @@
 		margin-right: 30%;
 
       }
+
       @media (max-width : 383px ){
         #contain {
           width: auto;
@@ -72,9 +73,6 @@ button:hover {
 }
 
 
-
-* { font-family: 'Godo', 'Sans-serif'; }
-
   #box1 { border-radius: 25px; border:3px solid}
   #box2 { border-radius: 10px 10px 30px 30px; border:3px solid;}
 
@@ -85,23 +83,22 @@ button:hover {
 	}
 	@-webkit-keyframes colorchange {
 
-	0%   {background: rgb(43, 219, 208);}
-  25%  {background: rgb(255, 37, 13);}
-  50%  {background: rgb(192, 33, 255);}
-  75%  {background: #DC7633;}
-	99%	 {background: rgb(41, 241, 141);}
+   0%  {background: rgb(192, 33, 255);}
+  25%  {background: rgb(43, 219, 208);}
+  50%  {background: #DC7633;}
+	80%	 {background: rgb(41, 241, 141);}
   100% {background: rgb(43, 219, 208);}
 	}
 
 
 	@keyframes colorchange {
-   0%  {background: rgb(43, 219, 208);}
-  25%  {background: rgb(255, 37, 13);}
-  50%  {background: rgb(192, 33, 255);}
-  75%  {background: #DC7633;}
-	99%	 {background: rgb(41, 241, 141);}
+   0%  {background: rgb(192, 33, 255);}
+  25%  {background: rgb(43, 219, 208);}
+  50%  {background: #DC7633;}
+	80%	 {background: rgb(41, 241, 141);}
   100% {background: rgb(43, 219, 208);}
   }
+
 
 /* 하이퍼링크 밑줄 제거 */
 a {
@@ -118,6 +115,7 @@ a {
 	}
 }
 
+* { font-family: 'Godo', 'Sans-serif'; }
 @font-face {
     font-family: 'Godo';
     font-weight: 500;
