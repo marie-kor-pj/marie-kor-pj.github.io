@@ -1,0 +1,130 @@
+﻿      #contain {
+        margin: 10px auto;
+		margin-top: 150px;
+        width: auto;
+        padding: 20px;
+      }
+      #title {
+        padding: 20px;
+		margin-top: 15px;
+		text-align: center;
+}
+      #text {
+        padding: 10px;
+		margin-top: 2.5%;
+		margin-bottom: 10px;
+		text-align: center;
+      }
+      #footer {
+        clear: both;
+        padding: 10px;
+		margin-left: 30%;
+		margin-right: 30%;
+
+      }
+      @media (max-width : 383px ){
+        #contain {
+          width: auto;
+        }
+      }
+
+/* BUTTON */
+button,
+button::after {
+  transition: all 0.5s;
+}
+
+button {
+  background: none;
+  border: 2px solid #000;
+  border-radius: 40px;
+  color: #000;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 1em auto;
+  padding: 12.5px 60px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+button:hover {
+  color: #FFF;
+  border: 2px solid #FFF;
+}
+
+#title {
+	animation-duration: 1s; animation-name: slidein;
+}
+
+@keyframes slidein
+{ from {
+	margin-left: 100%; width: 300%
+	}
+	to
+	{
+		margin-left: 0%; width: 100%;
+	}
+}
+
+#text {
+	animation-duration: 1.5s; animation-name: slidein;
+}
+
+
+
+* { font-family: 'Godo', 'Sans-serif'; }
+
+  #box1 { border-radius: 25px; border:3px solid}
+  #box2 { border-radius: 10px 10px 30px 30px; border:3px solid;}
+
+	body {
+
+  -webkit-animation: colorchange 60s infinite;
+  animation: colorchange 60s infinite;
+	}
+	@-webkit-keyframes colorchange {
+
+	0%   {background: rgb(43, 219, 208);}
+  25%  {background: rgb(255, 37, 13);}
+  50%  {background: rgb(192, 33, 255);}
+  75%  {background: #DC7633;}
+	99%	 {background: rgb(41, 241, 141);}
+  100% {background: rgb(43, 219, 208);}
+	}
+
+
+	@keyframes colorchange {
+   0%  {background: rgb(43, 219, 208);}
+  25%  {background: rgb(255, 37, 13);}
+  50%  {background: rgb(192, 33, 255);}
+  75%  {background: #DC7633;}
+	99%	 {background: rgb(41, 241, 141);}
+  100% {background: rgb(43, 219, 208);}
+  }
+
+/* 하이퍼링크 밑줄 제거 */
+a {
+  text-decoration:none;
+}
+
+@keyframes slidein
+{ from {
+	margin-left: 100%; width: 300%
+	}
+	to
+	{
+		margin-left: 0%; width: 100%;
+	}
+}
+
+@font-face {
+    font-family: 'Godo';
+    font-weight: 500;
+    src: url('fonts/GodoM.woff') format('woff');
+}
+@font-face {
+    font-family: 'Godo';
+    font-weight: 700;
+    src: url('fonts/GodoB.woff') format('woff');
+}
