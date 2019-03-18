@@ -95,19 +95,21 @@ button:hover {
 	}
 	@-webkit-keyframes colorchange {
 
-   0%  {background: rgb(192, 33, 255);}
-  25%  {background: rgb(43, 219, 208);}
-  50%  {background: #DC7633;}
-	80%	 {background: rgb(41, 241, 141);}
+  0%   {background: rgb(43, 219, 208);}
+  25%  {background: rgb(192, 33, 255);}
+  50%  {background: rgb(43, 219, 208);}
+  75%  {background: #DC7633;}
+	99%	 {background: rgb(41, 241, 141);}
   100% {background: rgb(43, 219, 208);}
 	}
 
 
 	@keyframes colorchange {
-   0%  {background: rgb(192, 33, 255);}
-  25%  {background: rgb(43, 219, 208);}
-  50%  {background: #DC7633;}
-	80%	 {background: rgb(41, 241, 141);}
+  0%  {background: rgb(43, 219, 208);}
+  25%  {background: rgb(192, 33, 255);}
+  50%  {background: rgb(43, 219, 208);}
+  75%  {background: #DC7633;}
+	99%	 {background: rgb(41, 241, 141);}
   100% {background: rgb(43, 219, 208);}
   }
 
