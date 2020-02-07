@@ -15,4 +15,4 @@
 
 
 ### 사이트 
-https://marie-kor-pj.github.io/marie-kor-pj/
+https://marie-kor-pj.github.io/
