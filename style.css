@@ -1,39 +1,39 @@
-      #contain {
-        margin: 10px auto;
-		margin-top: 150px;
-        width: auto;
-        padding: 20px;
-      }
-      #title {
-        padding: 20px;
-		margin-top: 15px;
-		text-align: center;
+#contain {
+  margin: 10px auto;
+  margin-top: 150px;
+  width: auto;
+  padding: 20px;
 }
-      #text {
-        padding: 10px;
-		margin-top: 2.5%;
-		margin-bottom: 10px;
-		text-align: center;
-      }
-      #footer {
-        clear: both;
-        padding: 10px;
-		margin-left: 30%;
-		margin-right: 30%;
+#title {
+  padding: 20px;
+  margin-top: 15px;
+  text-align: center;
+}
+#text {
+  padding: 10px;
+  margin-top: 2.5%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#footer {
+  clear: both;
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 100px;
+}
+.footer p {
+  text-align: center;	
+  padding: 10px;
+  font-size:17px;
+  color: #000;
+}
 
-      }
-	  .footer p {
-		text-align: center;
-		padding: 75px;
-		font-size:17px; 
-		color: #000;
-	  }
-
-      @media (max-width : 383px ){
-        #contain {
-          width: auto;
-        }
-      }
+@media (max-width : 383px ){
+  #contain {
+    width: auto;
+  }
+}
 
 /* BUTTON */
 button,
@@ -60,58 +60,55 @@ button:hover {
 }
 
 #title {
-	animation-duration: 1s; animation-name: slidein;
+  animation-duration: 1s; animation-name: slidein;
 }
 
 @keyframes slidein
-{ from {
-	margin-left: 100%; width: 300%
-	}
-	to
+{
+  from
+  {
+    margin-left: 100%; width: 300%
+  }
+  to
 	{
-		margin-left: 0%; width: 100%;
-	}
+    margin-left: 0%; width: 100%;
+  }
 }
 
 #text {
-	animation-duration: 1.5s; animation-name: slidein;
+  animation-duration: 1.5s; animation-name: slidein;
 }
 
 
-  #box1 { border-radius: 30px; border:3px solid; position: relative; overflow: hidden; display: table; }
-  #box2 { border-radius: 30px; border:3px solid; }
-  .content {
-	display: table-cell;
-	vertical-align: middle;
-	width: 100%;
-	height: 100%;
-	margin: auto;
-	position: relative;
-  }
-	body {
-
+#box1 { border-radius: 30px; border:3px solid; position: relative; overflow: hidden; display: table; padding: 30px;}
+.content {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+body {
   -webkit-animation: colorchange 60s infinite;
   animation: colorchange 60s infinite;
-	}
-	@-webkit-keyframes colorchange {
-
+}
+@-webkit-keyframes colorchange {
   0%   {background: rgb(43, 219, 208);}
   25%  {background: rgb(192, 33, 255);}
   50%  {background: rgb(43, 219, 208);}
   75%  {background: #DC7633;}
-	90%	 {background: rgb(41, 241, 141);}
+  90%	 {background: rgb(41, 241, 141);}
   100% {background: rgb(43, 219, 208);}
-	}
-
-
-	@keyframes colorchange {
+}
+@keyframes colorchange {
   0%  {background: rgb(43, 219, 208);}
   25%  {background: rgb(192, 33, 255);}
   50%  {background: rgb(43, 219, 208);}
   75%  {background: #DC7633;}
-	90%	 {background: rgb(41, 241, 141);}
+  90%	 {background: rgb(41, 241, 141);}
   100% {background: rgb(43, 219, 208);}
-  }
+}
 
 
 /* 하이퍼링크 밑줄 제거 */
@@ -120,23 +117,27 @@ a {
 }
 
 @keyframes slidein
-{ from {
-	margin-left: 100%; width: 300%
-	}
-	to
-	{
-		margin-left: 0%; width: 100%;
-	}
+{
+  from
+  {
+    margin-left: 100%; width: 300%
+  }
+  to
+  {
+    margin-left: 0%; width: 100%;
+  }
 }
 
 * { font-family: 'Godo', 'Sans-serif'; }
 @font-face {
-    font-family: 'Godo';
-    font-weight: 500;
-    src: url('fonts/GodoM.woff') format('woff');
+  font-family: 'Godo';
+  font-weight: 500;
+  src: url('fonts/GodoM.woff') format('woff');
+  font-display: swap;
 }
 @font-face {
-    font-family: 'Godo';
-    font-weight: 700;
-    src: url('fonts/GodoB.woff') format('woff');
+  font-family: 'Godo';
+  font-weight: 700;
+  src: url('fonts/GodoB.woff') format('woff');
+  font-display: swap;
 }
