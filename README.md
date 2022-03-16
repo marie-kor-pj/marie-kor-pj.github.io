@@ -14,7 +14,7 @@
 3. 하정빈 - 봇 한글화, 웹사이트 개발
 4. 윈도우(WinSub) - 웹사이트 개발
 5. uuuuu1226 - 웹사이트 개발
-6. 김병국(a.k.a MOA) - 웹사이트 개발
+6. moakim5 - 웹사이트 개발
 
 ### 사이트 
 https://marie-kor-pj.github.io/
